@@ -1,0 +1,97 @@
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.banner__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+}
+
+.banner__content {
+    top: 15vw;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+    margin-top: 12vw;
+    height: 25vw;
+    width: 40vw;
+}
+
+.banner__logo {
+}
+
+.banner__description {
+    font-size: 1.2vw;
+}
+
+.banner__buttons {
+    display: flex;
+}
+
+.banner__buttons > button {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5vw 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.2vw;
+    gap: 10px;
+}
+
+.banner__play-button {
+    width: 9vw;
+    color: black;
+    background-color: white;
+}
+
+.banner__info-button {
+    width: 12vw;
+    color: white;
+    background-color: rgba(109, 109, 110, 0.7);
+    margin-left: 1vw;
+}
+
+.banner__button-image {
+    width: 2vw;
+}
+
+.content-container {
+    margin-top: 6vw;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.content-title {
+    font-size: 1.4vw;
+}
+
+.contents {
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.content {
+    /*border-radius: 20px;*/
+    width: 250px;
+}
+
+.content > image {
+    border-radius: 5px;
+}
+
+.content:hover {
+    transition: all 0.2s linear;
+    transform: scale(1.3);
+}
